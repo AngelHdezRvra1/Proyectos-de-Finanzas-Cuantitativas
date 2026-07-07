@@ -68,9 +68,9 @@ Para mejorar el aprendizaje de los modelos se construyeron nuevas variables fina
 
 Se calcula el cambio porcentual diario del precio:
 
-\[
+$$
 R_t=\frac{P_t-P_{t-1}}{P_{t-1}}
-\]
+$$
 
 
 ## Medias móviles
@@ -86,9 +86,9 @@ Se generan tendencias de corto y mediano plazo:
 
 Se estima mediante la desviación estándar móvil de los rendimientos:
 
-\[
+$$
 \sigma=\sqrt{\frac{1}{n}\sum(R_i-\bar R)^2}
-\]
+$$
 
 
 ## Variables rezagadas (Lag Features)
@@ -142,27 +142,27 @@ Los modelos son evaluados mediante:
 
 Error absoluto promedio:
 
-\[
+$$
 MAE=\frac{1}{n}\sum |y_i-\hat{y_i}|
-\]
+$$
 
 
 ## RMSE (Root Mean Squared Error)
 
 Penaliza errores grandes:
 
-\[
+$$
 RMSE=\sqrt{\frac{1}{n}\sum(y_i-\hat{y_i})^2}
-\]
+$$
 
 
 ## R² Score
 
 Mide la capacidad explicativa del modelo:
 
-\[
+$$
 R^2=1-\frac{SS_{res}}{SS_{tot}}
-\]
+$$
 
 
 ---
